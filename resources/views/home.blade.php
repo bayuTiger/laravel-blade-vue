@@ -10,6 +10,7 @@
                 <div class="card-body">
                     <input v-model="name">
                     <p>名前： @{{ name }}</p>
+                    <button @click="toUpperCase">大文字にする</button>
                 </div>
             </div>
         </div>
@@ -26,7 +27,11 @@
                 name: '',
             }
         },
-        methods: {}
+        methods: {
+            toUpperCase: function () {
+                this.name = this.name.toUpperCase();
+            },
+        },
     });
 </script>
 @endsection
