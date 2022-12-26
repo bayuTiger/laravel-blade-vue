@@ -9,4 +9,4 @@
 - Composer: 2.5.1
 - Node.js: 19.3.0
 
-Qiita記事 (ココ!)[https://qiita.com/akitika/items/c451954d8890385e9641]
+Qiita記事 [ココ!](https://qiita.com/akitika/items/c451954d8890385e9641)
